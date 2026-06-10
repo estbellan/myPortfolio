@@ -1,70 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact — Esteban Bellantonio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
+# Esteban Bellantonio — Portfolio
 
-  <header class="mobile-header">
-    <div class="mobile-header__name">
-      <a href="index.html" class="mobile-back">← Back</a>
-    </div>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-  </header>
+Personal UX/UI design portfolio. Built with vanilla HTML/CSS/JS, no dependencies, ready for GitHub Pages.
 
-  <aside class="sidebar" id="sidebar">
-    <div class="sidebar__brand">
-      <a href="index.html" style="text-decoration:none;color:inherit">
-        <p class="sidebar__name">ESTEBAN<br>BELLANTONIO</p>
-        <p class="sidebar__role">UX/UI DESIGNER</p>
-      </a>
-    </div>
-    <nav class="sidebar__nav">
-      <a href="index.html" class="nav__back">← Home</a>
-    </nav>
-    <nav class="sidebar__nav sidebar__nav--bottom">
-      <ul>
-        <li><a href="about.html" class="nav__link">About Me</a></li>
-        <li><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
-      </ul>
-    </nav>
-  </aside>
+## Structure
 
-  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+```
+portfolio/
+├── index.html          # Home — project cards grid
+├── project.html        # Project detail (dynamic via ?id=)
+├── about.html
+├── contact.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── main.js         # Mobile menu
+│   └── projects.js     # Project data + renderer
+└── images/
+    ├── onboard.jpg
+    ├── backoffice.jpg
+    ├── corporate.jpg
+    └── vehicle.jpg
+```
 
-  <main class="main">
-    <article class="static-page">
-      <header class="static-page__header">
-        <span class="static-page__eyebrow">Contact</span>
-        <h1 class="static-page__title">Let's work together</h1>
-        <p class="static-page__subtitle">Open for freelance projects and full-time opportunities.</p>
-      </header>
+## Adding / editing projects
 
-      <div class="static-page__body">
-        <p>If you have a product that needs thoughtful UX or a frontend that needs to match the design, feel free to reach out.</p>
-      </div>
+All project content lives in `js/projects.js` inside the `PROJECTS` object. Each project has:
 
-      <div class="contact-links">
-        <a href="mailto:esteban.bellantonio@dicsys.com" class="contact-link">
-          <span class="contact-link__icon">✉</span>
-          <span class="contact-link__text">esteban.bellantonio@dicsys.com</span>
-        </a>
-        <a href="https://linkedin.com/in/ebellantonio" target="_blank" rel="noopener" class="contact-link">
-          <span class="contact-link__icon">in</span>
-          <span class="contact-link__text">linkedin.com/in/ebellantonio</span>
-        </a>
-      </div>
-    </article>
-  </main>
+- `company` — shown as eyebrow text
+- `title` — main heading
+- `subtitle` — italic tagline
+- `heroImage` — path to image in `/images/`
+- `sections[]` — array of `{ label, text }` blocks (HTML allowed in `text`)
+- `figmaUrl` — link for the "View Prototype in Figma" button (set to `null` to hide)
 
-  <script src="js/main.js"></script>
-</body>
-</html>
+### Adding a new project
+
+1. Add an entry to `PROJECTS` in `js/projects.js`
+2. Add the card to `index.html` (copy an existing `<a class="card">` block)
+3. Add the nav link to all HTML files
+4. Drop the hero image in `/images/`
+
+## Images
+
+Place `.jpg` or `.png` images in `/images/`. Recommended size: **1600×1000px**. The cards use `grayscale(100%)` by default, matching the original design — remove the filter in CSS if you want color.
+
+## GitHub Pages deployment
+
+1. Push to a GitHub repo (e.g. `your-username/portfolio`)
+2. Go to **Settings → Pages**
+3. Set source to `Deploy from a branch` → `main` → `/ (root)`
+4. Site will be live at `https://your-username.github.io/portfolio/`
+
+> If deploying to a subdirectory, all links are relative so no config needed.
