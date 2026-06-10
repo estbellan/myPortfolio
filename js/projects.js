@@ -6,7 +6,7 @@ const PROJECTS = {
     company: "Volkswagen Financial Services",
     title: "Pre-approved Credit Platform",
     subtitle: "Designing a smooth onboarding experience to boost loan requests",
-    heroImage: "images/onboard.jpg",
+    heroImage: "images/onboard_large.jpg",
     sections: [
       {
         label: "Project Overview",
@@ -28,7 +28,7 @@ const PROJECTS = {
     company: "Volkswagen Financial Services",
     title: "Backoffice Migration",
     subtitle: "A journey into user-specific design challenges",
-    heroImage: "images/backoffice.jpg",
+    heroImage: "images/backoffice_large.jpg",
     sections: [
       {
         label: "Project Overview",
@@ -50,7 +50,7 @@ const PROJECTS = {
     company: "Volkswagen Financial Services",
     title: "From Paper to Platform",
     subtitle: "Transforming corporate onboarding into a streamlined, digital-first experience",
-    heroImage: "images/corporate.jpg",
+    heroImage: "images/corporate_large.jpg",
     sections: [
       {
         label: "Project Overview",
@@ -72,7 +72,7 @@ const PROJECTS = {
     company: "Volkswagen Financial Services",
     title: "Post Oferta Web Enhancement",
     subtitle: "Refreshing the Web Experience and Optimizing Vehicle Dispatch Operations",
-    heroImage: "images/vehicle.jpg",
+    heroImage: "images/vehicle_large.jpg",
     sections: [
       {
         label: "Project Overview",
