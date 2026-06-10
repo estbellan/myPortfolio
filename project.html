@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Esteban Bellantonio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="mobile-header">
+    <div class="mobile-header__name">
+      <a href="index.html" class="mobile-back">← Back</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar__brand">
+      <a href="index.html" style="text-decoration:none;color:inherit">
+        <p class="sidebar__name">ESTEBAN<br>BELLANTONIO</p>
+        <p class="sidebar__role">UX/UI DESIGNER</p>
+      </a>
+    </div>
+    <nav class="sidebar__nav">
+      <a href="index.html" class="nav__back">← Home</a>
+    </nav>
+    <nav class="sidebar__nav sidebar__nav--bottom">
+      <ul>
+        <li><a href="about.html" class="nav__link nav__link--active">About Me</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <main class="main">
+    <article class="static-page">
+      <header class="static-page__header">
+        <span class="static-page__eyebrow">About</span>
+        <h1 class="static-page__title">Esteban Bellantonio</h1>
+        <p class="static-page__subtitle">UX/UI Designer & Frontend Developer</p>
+      </header>
+
+      <div class="static-page__body">
+        <p>I'm a designer and developer based in Buenos Aires, focused on creating digital products that are both intuitive and visually refined. My work lives at the intersection of design thinking and engineering — I care as much about how something works as how it looks.</p>
+        <p>Over the past years I've worked extensively with Volkswagen Financial Services, designing and building platforms for credit onboarding, backoffice operations, and corporate client management. I work across the full product lifecycle: research, wireframing, prototyping in Figma, and frontend implementation in Angular/Ionic.</p>
+        <p>Currently at <strong>Dicsys</strong>, where I help teams build better digital experiences.</p>
+      </div>
+
+      <div class="static-page__skills">
+        <div class="skill-group">
+          <p class="skill-group__label">Design</p>
+          <ul>
+            <li>UX Research</li>
+            <li>Information Architecture</li>
+            <li>Wireframing & Prototyping</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group__label">Development</p>
+          <ul>
+            <li>Angular / Ionic</li>
+            <li>TypeScript</li>
+            <li>HTML / CSS</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
