@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="744" height="698" viewBox="0 0 744 698">
+<rect width="100%" height="100%" fill="#0c1520"/>
+<text x="20" y="34" fill="#e4edf1" font-family="monospace" font-size="18" font-weight="bold">BIO-01 — Advanced Biological Research Center</text>
+<text x="20" y="56" fill="#b8c6cc" font-family="monospace" font-size="12">16 × 12 m · altura 4 m · unique · eje X → / Z ↓</text>
+<rect x="100" y="100" width="544" height="408" fill="#182530"/>
+<line x1="100.0" y1="100.0" x2="100.0" y2="508.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="236.0" y1="100.0" x2="236.0" y2="508.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="372.0" y1="100.0" x2="372.0" y2="508.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="508.0" y1="100.0" x2="508.0" y2="508.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="644.0" y1="100.0" x2="644.0" y2="508.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="100.0" y1="100.0" x2="644.0" y2="100.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="100.0" y1="236.0" x2="644.0" y2="236.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="100.0" y1="372.0" x2="644.0" y2="372.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="100.0" y1="508.0" x2="644.0" y2="508.0" stroke="#344552" stroke-width=".9" stroke-dasharray="4 5"/>
+<line x1="100.0" y1="399.2" x2="351.6" y2="399.2" stroke="#d8e2e7" stroke-width="5.1"/>
+<line x1="392.4" y1="399.2" x2="644.0" y2="399.2" stroke="#d8e2e7" stroke-width="5.1"/>
+<line x1="351.6" y1="399.2" x2="392.4" y2="399.2" stroke="#86da8c" stroke-width="3"/>
+<line x1="100.0" y1="100.0" x2="644.0" y2="100.0" stroke="#d6dee3" stroke-width="4"/>
+<line x1="100.0" y1="508.0" x2="351.6" y2="508.0" stroke="#d6dee3" stroke-width="4"/>
+<line x1="351.6" y1="508.0" x2="392.4" y2="508.0" stroke="#7fe79c" stroke-width="4"/>
+<line x1="392.4" y1="508.0" x2="644.0" y2="508.0" stroke="#d6dee3" stroke-width="4"/>
+<line x1="100.0" y1="100.0" x2="100.0" y2="508.0" stroke="#d6dee3" stroke-width="4"/>
+<line x1="644.0" y1="100.0" x2="644.0" y2="508.0" stroke="#d6dee3" stroke-width="4"/>
+<rect x="122.1" y="128.9" width="76.5" height="81.6" fill="#588a9c" fill-opacity=".7" stroke="#a4d3df" stroke-opacity=".65" stroke-width="1"/>
+<text x="160.3" y="173.7" text-anchor="middle" font-size="10" fill="#e5f4f7" font-family="monospace">F01</text>
+<rect x="536.9" y="128.9" width="76.5" height="81.6" fill="#588a9c" fill-opacity=".7" stroke="#a4d3df" stroke-opacity=".65" stroke-width="1"/>
+<text x="575.1" y="173.7" text-anchor="middle" font-size="10" fill="#e5f4f7" font-family="monospace">F02</text>
+<rect x="241.1" y="117.0" width="261.8" height="28.9" fill="#588a9c" fill-opacity=".7" stroke="#a4d3df" stroke-opacity=".65" stroke-width="1"/>
+<text x="372.0" y="135.4" text-anchor="middle" font-size="10" fill="#e5f4f7" font-family="monospace">F03</text>
+<rect x="128.9" y="315.9" width="73.1" height="37.4" fill="#588a9c" fill-opacity=".7" stroke="#a4d3df" stroke-opacity=".65" stroke-width="1"/>
+<text x="165.4" y="338.6" text-anchor="middle" font-size="10" fill="#e5f4f7" font-family="monospace">F04</text>
+<rect x="542.0" y="315.9" width="73.1" height="37.4" fill="#588a9c" fill-opacity=".7" stroke="#a4d3df" stroke-opacity=".65" stroke-width="1"/>
+<text x="578.5" y="338.6" text-anchor="middle" font-size="10" fill="#e5f4f7" font-family="monospace">F05</text>
+<rect x="443.4" y="302.3" width="51.0" height="51.0" fill="#c29d67" fill-opacity=".7" stroke="#a4d3df" stroke-opacity=".65" stroke-width="1"/>
+<text x="468.9" y="331.8" text-anchor="middle" font-size="10" fill="#e5f4f7" font-family="monospace">F06</text>
+<rect x="125.5" y="426.4" width="68.0" height="25.5" fill="#588a9c" fill-opacity=".7" stroke="#a4d3df" stroke-opacity=".65" stroke-width="1"/>
+<text x="159.5" y="443.1" text-anchor="middle" font-size="10" fill="#e5f4f7" font-family="monospace">F07</text>
+<text x="372.0" y="535.8" text-anchor="middle" font-family="monospace" font-size="12" fill="#7fe79c">D01</text>
+<text x="100" y="654" fill="#b8c8d2" font-size="12" font-family="monospace">Blanco: muro · Verde: puerta base · Amarillo: puerta condicional · Azul: vidrio · Rojo: vacío</text>
+<text x="100" y="675" fill="#b8c8d2" font-size="12" font-family="monospace">Props Fxx = volúmenes simples de colisión · coordenadas locales en metros · NO modelo final</text>
+</svg>
